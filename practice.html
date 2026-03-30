@@ -5,17 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+      <!-- google font -->
+      <script src="https://kit.fontawesome.com/bd634c992b.js" crossorigin="anonymous"></script>
 </head>
 <body>
    <main class="max-w-screen-lg px-16 lg:px-20">
-    <div>
+    <div class="flex">
         <div>
             <h1 class="text-5xl font-semibold">It's good <br> tea time at The <br> Tea House</h1>
             <p class="mt-2 text-color">Tea and Botanical Solutions Supplier Give Optimum Satisfaction <br> To Your Taste Buds.</p>
-            <button class="mt-3 rounded-sm px-2 py-3 bg-gradient-to-r from-red-500 via-red-500 to-pink-500">Explore more</button>
+            <button class="mt-3 rounded-sm px-2 py-3 bg-gradient-to-r from-red-500 via-red-500 to-pink-500">Explore more <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
 
         </div>
-        <div>
+        <div class="relative">
+            <div>
+                <img src="./images/banner.png" alt="">
+            </div>
+            <div class="absolute top-28 md:top-75 flex items-center bg-white shadow-lg md:px-3 md:py-5 rounded-sm ">
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="ml-2">
+                    <h1 class="text-3xl">5.00</h1>
+                    <p>Trust Pilot Ratings</p>
+
+                </div>
+            </div>
 
         </div>
     </div>
